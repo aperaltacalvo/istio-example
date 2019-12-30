@@ -21,7 +21,7 @@ Use Mac book air (Catalina OS) with minikube minikube version: v0.35.0 and kuber
 
 After a few minutes, when everything is runnning and working you can access to your service via Istio ingress:
 
-http://<minikube ip>:32680/docker-php/index.php
+http://<<<minikube ip>>>:32680/docker-php/index.php
   
 If you want to see Grafana working, you can launch a port forwaring to localhost and play:
 
